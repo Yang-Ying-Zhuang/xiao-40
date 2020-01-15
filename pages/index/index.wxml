@@ -1,0 +1,10 @@
+
+<view class="inpue">
+   <view class="inpue-view">
+     {{seraindex}}
+   </view>
+</view>
+<view class="nav">
+  <view class="item" wx:key="id" wx:for="{{navs}}" wx:for-item="v"                wx:for-index="i">{{v.name}}{{i}}
+  </view>
+</view>
